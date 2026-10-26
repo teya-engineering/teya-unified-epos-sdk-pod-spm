@@ -7,7 +7,7 @@ Unified POSLink SDK distribution for iOS, available via Swift Package Manager an
 
 ## CocoaPods
 
-The SDK is no longer on the CocoaPods trunk (the last version there is `1.9.1-alpha07`). Point your `Podfile` at the podspec in this repository, and put the version in the URL:
+The SDK is no longer on the CocoaPods trunk (the last stable version there is `1.9.0`). Point your `Podfile` at the podspec in this repository, and put the version in the URL:
 
 ```ruby
 pod 'TeyaUnifiedEposSDK', :podspec => 'https://raw.githubusercontent.com/teya-engineering/teya-unified-epos-sdk-pod-spm/<version>/TeyaUnifiedEposSDK.podspec'
