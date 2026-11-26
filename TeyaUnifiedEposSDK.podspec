@@ -1,17 +1,16 @@
 Pod::Spec.new do |spec|
     spec.name                   = 'TeyaUnifiedEposSDK'
-    spec.version                = '1.9.1-alpha07'
+    spec.version                = '1.10.0'
     spec.homepage               = 'https://docs.teya.com'
     spec.source                 = {
-        :http => 'https://cdn.teya.com/static/2bbd9f0b/TeyaUnifiedEposSDK-1.9.1-alpha07.xcframework.zip'
+        :http => 'https://cdn.teya.com/static/2bbd9f0b/TeyaUnifiedEposSDK-1.10.0.xcframework.zip'
     }
     spec.authors                = 'Teya'
     spec.summary                = 'Teya PosLink SDK'
-    spec.platform               = :ios, '12.0'
+    spec.platform               = :ios, '15.0'
     spec.vendored_frameworks    = 'TeyaUnifiedEposSDK.xcframework'
     spec.libraries              = 'c++'
     spec.requires_arc           = true
-    spec.resources = ['TeyaUnifiedEposSDK.xcframework/ios-arm64/TeyaUnifiedEposSDK.framework/compose-resources']
 
     # Add architecture exclusions - XCFramework doesn't include x86_64 simulator slice
     # x86_64 is only needed for iOS Simulator on Intel-based Macs
